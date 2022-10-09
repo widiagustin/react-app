@@ -26,7 +26,6 @@ export default class SumNumbers extends React.Component {
                             placeholder="Second Number..."
                             onChange={(e) => this.setState({ number2: e.target.value })}
                             className="bg-gray-50 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
-                        {/* <input type="number" placeholder="Second Number..." onChange={(e) => this.setState({ number2: e.target.value })} /> */}
                         <button
                             onClick={this.Calculate}
                             className="bg-blue-500 p-3 rounded-full text-white w-32 mx-auto mb-5"
