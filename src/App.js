@@ -1,11 +1,9 @@
-import MultiplyNumbers from "./components/calculation/MultiplyNumbers";
-import SumNumbers from "./components/calculation/SumNumbers";
+import FormValidation from "./components/validation/FormValidation";
 
 function App () {
   return (
     <div>
-      <SumNumbers />
-      <MultiplyNumbers />
+      <FormValidation />
     </div>
   );
 }
