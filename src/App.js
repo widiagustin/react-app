@@ -1,9 +1,9 @@
-import FormValidation from "./components/validation/FormValidation";
+import NewsPortal from "./components/news";
 
 function App () {
   return (
     <div>
-      <FormValidation />
+      <NewsPortal />
     </div>
   );
 }
