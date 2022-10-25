@@ -14,3 +14,10 @@ export const decrement = value => {
   }
 }
 
+export const decrementWithCheckingAction = value => {
+  return (dispatch, getState) => {
+    if (getState().counter.count > 0) {
+      dispatch(decrement(value))
+    }
+  }
+}
