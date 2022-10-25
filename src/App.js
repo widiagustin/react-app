@@ -1,9 +1,9 @@
-import NewsPortal from "./components/news";
+import Redux from "./components/redux";
 
 function App () {
   return (
     <div>
-      <NewsPortal />
+      <Redux />
     </div>
   );
 }
